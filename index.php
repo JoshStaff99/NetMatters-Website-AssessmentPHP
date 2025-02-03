@@ -12,6 +12,7 @@ include('inc/connection.php');
     <meta name="ROBOTS" content="NOINDEX,NOFOLLOW">
     <meta name="author" content="Joshua Stafford">
     <meta name="description" content="Homepage">
+    <title>Homepage</title>
 
 	<link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="js/slick/slick.css">
@@ -382,7 +383,7 @@ include('inc/connection.php');
                             <p>
                                 Originally founded in 2006 as Ashcroft Anthony, they became Ashcroft Partnership LLP in 2020 and are one of the top chartered accountancy firms in Cambridge, advising entrepreneurs and families.
                             </p>
-                            <a class="btn case-study-button-9" href="#">View Our Case Study<span href="#" class="case-study-btn-arrow icon-arrow-right2"></span></a>
+                            <a class="btn case-study-button-9" href="#">View Our Case Study<span class="case-study-btn-arrow icon-arrow-right2"></span></a>
                         </div>
                         <span class="triangle-case-study-9"></span>
                     </div>
@@ -397,7 +398,7 @@ include('inc/connection.php');
                             <p>
                                 <a href="#" target="_blank">One Traveller</a>, founded in 2007, is a leading provider of solo holidays for over 50's
                             </p>
-                            <a class="btn case-study-button-10" href="#">View Our Case Study<span href="#" class="case-study-btn-arrow icon-arrow-right2"></span></a>
+                            <a class="btn case-study-button-10" href="#">View Our Case Study<span class="case-study-btn-arrow icon-arrow-right2"></span></a>
                         </div>
                         <span class="triangle-case-study-10"></span>
                     </div>
@@ -453,7 +454,7 @@ include('inc/connection.php');
     </div>
     <?php include ('inc/side-menu.php'); ?>
     <script src="js/jquery-3.7.1.min.js"></script>
-    <script type="text/javascript" src="js/slick/slick.min.js"></script>
+    <script src="js/slick/slick.min.js"></script>
     <script src="js/main.js"></script>
     </body>
 </html>

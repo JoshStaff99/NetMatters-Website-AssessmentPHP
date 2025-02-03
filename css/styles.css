@@ -3251,13 +3251,6 @@ footer .footer-row h4 {
   background: transparent;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -15px;
-  margin-right: -15px;
-}
-
 .form-row {
   display: flex;
   flex-wrap: wrap;
