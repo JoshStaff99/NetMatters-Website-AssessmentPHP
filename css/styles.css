@@ -407,7 +407,6 @@ header img {
   min-width: 100%;
   left: 0;
   padding-top: 20px;
-  padding-bottom: 50px;
   margin-top: 82px;
 }
 
@@ -417,6 +416,8 @@ header img {
   list-style: none;
   align-items: center;
   text-align: left;
+  position: relative;
+  top: -70px;
 }
 .sub-menu span {
   margin-right: 10px;
