@@ -398,6 +398,7 @@ header img {
   margin-top: 12px;
   display: none;
   align-self: center;
+  cursor: pointer;
 }
 
 .sub-menu-container {
