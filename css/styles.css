@@ -815,6 +815,48 @@ header img {
   background-image: linear-gradient(270deg, transparent 25%, #000), url("../img/banner-img/home-MSxH.png");
 }
 
+@media (max-width: 992px) {
+  .banner-background-1 {
+    background-image: linear-gradient(270deg, transparent 1%, #000), url("../img/banner-img/home-YLei.png");
+  }
+}
+
+@media (max-width: 992px) {
+  .banner-background-2 {
+    background-image: linear-gradient(270deg, transparent 1%, #000), url("../img/banner-img/home-O67Y.png");
+  }
+}
+
+@media (max-width: 992px) {
+  .banner-background-3 {
+    background-image: linear-gradient(270deg, transparent 1%, #000), url("../img/banner-img/home-gay8.png");
+  }
+}
+
+@media (max-width: 992px) {
+  .banner-background-4 {
+    background-image: linear-gradient(270deg, transparent 1%, #000), url("../img/banner-img/home-6yTp.png");
+  }
+}
+
+@media (max-width: 992px) {
+  .banner-background-5 {
+    background-image: linear-gradient(270deg, transparent 1%, #000), url("../img/banner-img/home-J8Xx.png");
+  }
+}
+
+@media (max-width: 992px) {
+  .banner-background-6 {
+    background-image: linear-gradient(270deg, transparent 1%, #000), url("../img/banner-img/home-K0pn.png");
+  }
+}
+
+@media (max-width: 992px) {
+  .banner-background-7 {
+    background-image: linear-gradient(270deg, transparent 1%, #000), url("../img/banner-img/home-MSxH.png");
+  }
+}
+
 @media (min-width: 992px) {
   .banner {
     text-align: left;
@@ -880,6 +922,7 @@ header img {
   margin-top: 30px;
   top: 0;
   position: relative;
+  cursor: pointer;
 }
 .service-list p {
   font-size: 0.8125rem;

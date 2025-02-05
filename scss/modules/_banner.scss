@@ -69,6 +69,50 @@
 }
 
 //Media Queries
+.banner-background-1 {
+    @media (max-width: 992px) {
+        background-image: linear-gradient(270deg, transparent 1%, #000), url('../img/banner-img/home-YLei.png');
+    }
+}
+
+.banner-background-2 {
+    @media (max-width: 992px) {
+        background-image: linear-gradient(270deg, transparent 1%, #000), url('../img/banner-img/home-O67Y.png');
+    }
+}
+
+.banner-background-3 {
+    @media (max-width: 992px) {
+        background-image: linear-gradient(270deg, transparent 1%, #000), url('../img/banner-img/home-gay8.png');
+    }
+}
+
+.banner-background-4 {
+    @media (max-width: 992px) {
+        background-image: linear-gradient(270deg, transparent 1%, #000), url('../img/banner-img/home-6yTp.png');
+    }
+}
+
+.banner-background-5 {
+    @media (max-width: 992px) {
+        background-image: linear-gradient(270deg, transparent 1%, #000), url('../img/banner-img/home-J8Xx.png');
+    }
+}
+
+.banner-background-6 {
+    @media (max-width: 992px) {
+        background-image: linear-gradient(270deg, transparent 1%, #000), url('../img/banner-img/home-K0pn.png');
+    }
+}
+
+.banner-background-7 {
+    @media (max-width: 992px) {
+        background-image: linear-gradient(270deg, transparent 1%, #000), url('../img/banner-img/home-MSxH.png');
+        //background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.7) 1%, transparent 100%), url('../img/banner-img/home-MSxH.png');
+    }
+}
+
+
 .banner {
     @media (min-width: 992px) {
     text-align: left;
