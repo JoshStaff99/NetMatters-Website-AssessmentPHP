@@ -146,6 +146,7 @@ header img {
   line-height: 46px;
   font-size: 1.125rem;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .hamburger-inner {
@@ -263,6 +264,7 @@ header img {
   border: none;
   color: #fff;
   padding: 7px 20px 3px;
+  cursor: pointer;
 }
 .large-form-icon-container :hover {
   background-color: #7e808a;
