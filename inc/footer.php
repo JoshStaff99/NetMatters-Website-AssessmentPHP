@@ -78,7 +78,7 @@
             <div class="container-sticky-footer">
                 <div class="container">
                     <div class="sticky-footer">
-                        <p>@ copyright Netmatters 2024. <br>All rights reserved. - <br><a href="#">sitemap</a></p>  
+                        <p> &copy; Copyright Netmatters 2025. <br>All rights reserved. - <br><a href="#">sitemap</a></p>  
                     </div>
                 </div> 
             </div> 
