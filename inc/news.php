@@ -10,6 +10,7 @@ $articles = [
         'description' => 'September Notables 2024 Celebrating the achievements and dedication of our staff, at Netmatters, we...',
         'readMoreLink' => '#',
         'userImage' => 'img/news-article/netmatters-ltd-VXAv.png',
+        'h3' => 'h3-3',
         'author' => 'Netmatters',
         'postDate' => '10 October 2024'
     ],
@@ -20,6 +21,7 @@ $articles = [
         'description' => 'Salary Range £26-36k per annum + Bonus Hours 40 hours per week, Monday - Friday Location Whymondha...',
         'readMoreLink' => '#',
         'userImage' => 'img/news-article/rebecca-moore-1fh7.jpg',
+        'h3' => 'h3-1',
         'author' => 'Rebecca Moore',
         'postDate' => '18th October 2024',
         'btnClass' => 'art-btn-1 article-img-btn',
@@ -32,6 +34,7 @@ $articles = [
         'description' => 'It seems as though everyone is publishing articles these days, but is it worth it? Articles, blog po...',
         'readMoreLink' => '#',
         'userImage' => 'img/news-article/netmatters-ltd-VXAv.png',
+        'h3' => 'h3-2',
         'author' => 'Netmatters',
         'postDate' => '16th October 2024',
         'btnClass' => 'art-btn-2 article-img-btn',
@@ -58,7 +61,7 @@ foreach ($articles as $article) {
                 </a>
             </div> 
             <div class="article-block">
-                <h3><a class="h3-3" href="<?= htmlspecialchars($article['link']); ?>"><?= htmlspecialchars($article['title']); ?></a></h3>
+                <h3><a class="<?= htmlspecialchars($article['h3']); ?>" href="<?= htmlspecialchars($article['link']); ?>"><?= htmlspecialchars($article['title']); ?></a></h3>
                 <p><?= htmlspecialchars($article['description']); ?></p>
                 <a class="btn btn-web" href="<?= htmlspecialchars($article['read_more_link']); ?>">Read More</a>
                 <div class="user">
