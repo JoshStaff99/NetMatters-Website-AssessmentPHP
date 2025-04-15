@@ -3339,11 +3339,6 @@ textarea#message {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.form-control::-moz-placeholder {
-  color: #888;
-  opacity: 1;
-}
-
 .form-control::placeholder {
   color: #888;
   opacity: 1;
@@ -4106,6 +4101,14 @@ a {
 }
 
 .ofh-it-support-active {
+  display: block;
+}
+
+.marketing-btn-hidden {
+  display: none;
+}
+
+.marketing-btn-active {
   display: block;
 }
 

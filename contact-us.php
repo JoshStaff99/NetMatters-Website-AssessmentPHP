@@ -193,8 +193,8 @@
                                 <label class="checkbox">
                                     <span class="media">
                                         <span class="media-left checkbox-left">
-                                            <span class="button">
-
+                                            <span class="marketing-btn button">
+                                                <span class="checkmark marketing-btn-hidden">&#10004;</span>
                                             </span>
                                         </span>
                                         <span class="media-body">
@@ -203,6 +203,8 @@
                                             for more information on how we keep your data safe.
                                         </span>
                                     </span>
+
+                                    <input type="checkbox" name="marketingConsent" class="marketing-checkbox" value="yes" style="position: absolute; left: -9999px;">
                                 </label>
                             </div>
                             <div class="form-group form-label recaptcha-terms">

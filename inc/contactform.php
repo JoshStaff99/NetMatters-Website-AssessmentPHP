@@ -47,27 +47,34 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 
-      // If there are no errors, insert the data into the database
-      if (!$hasErrors) {
-        try {
-            // Prepare SQL insert statement
-            $stmt = $pdo->prepare("INSERT INTO contact_form (name, email, telephone, message) VALUES (:name, :email, :telephone, :message)");
+    // Handle marketing consent checkbox
+    // Default to 0 (no)
+    $marketingConsent = (isset($_POST['marketingConsent']) && $_POST['marketingConsent'] === 'yes') ? 'yes' : 'no';
+    
 
-            // Bind parameters to the prepared statement
-            $stmt->bindParam(':name', $name);
-            $stmt->bindParam(':email', $email);
-            $stmt->bindParam(':telephone', $telephone);
-            $stmt->bindParam(':message', $message);
+    // If there are no errors, insert the data into the database
+    if (!$hasErrors) {
+    try {
+        // Prepare SQL insert statement
+        $stmt = $pdo->prepare("INSERT INTO contact_form (name, email, telephone, message, marketing_consent) VALUES (:name, :email, :telephone, :message, :marketing_consent)");
 
-            // Execute the insert query
-            $stmt->execute();
 
-            // Return success response in JSON format
-            echo json_encode(['success' => true]);
-        } catch (PDOException $e) {
-            // Handle database error
-            echo json_encode(['success' => false, 'error' => 'Database error: ' . $e->getMessage()]);
-        }
+        // Bind parameters to the prepared statement
+        $stmt->bindParam(':name', $name);
+        $stmt->bindParam(':email', $email);
+        $stmt->bindParam(':telephone', $telephone);
+        $stmt->bindParam(':message', $message);
+        $stmt->bindParam(':marketing_consent', $marketingConsent);
+
+        // Execute the insert query
+        $stmt->execute();
+
+        // Return success response in JSON format
+        echo json_encode(['success' => true]);
+    } catch (PDOException $e) {
+        // Handle database error
+        echo json_encode(['success' => false, 'error' => 'Database error: ' . $e->getMessage()]);
+    }
     } else {
         // If there are validation errors, return the errors in JSON format
         echo json_encode(['success' => false, 'errors' => $errors]);

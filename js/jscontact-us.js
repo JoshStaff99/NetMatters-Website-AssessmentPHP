@@ -18,6 +18,37 @@ $(document).ready(function() {
     });
 });
 
+//Marketing value on click Function
+// $(document).ready(function() {
+//   $('.marketing-btn').click(function(e) {
+//       var marketingButton = $('.marketing-btn-hidden, .marketing-btn-active');
+      
+//       // If it's hidden, make it active, and vice versa
+//       if (marketingButton.hasClass('marketing-btn-hidden')) {
+//           marketingButton.removeClass('marketing-btn-hidden').addClass('marketing-btn-active');
+//       } else if (marketingButton.hasClass('marketing-btn-active')) {
+//           marketingButton.removeClass('marketing-btn-active').addClass('marketing-btn-hidden');
+//       }
+      
+//       e.stopPropagation(); 
+//   });
+// });
+
+$(document).ready(function() {
+  $('.marketing-btn').click(function(e) {
+    var $button = $(this);
+    var $checkmark = $button.find('.checkmark');
+    var $checkbox = $button.closest('.checkbox').find('.marketing-checkbox');
+
+    $checkmark.toggleClass('marketing-btn-hidden marketing-btn-active');
+
+    // Toggle the checkbox
+    $checkbox.prop('checked', !$checkbox.prop('checked'));
+
+    e.stopPropagation();
+  });
+});
+
 const $form_TelNo = $('#telephone'); 
 const $form_EmailAddress = $('#email');
 

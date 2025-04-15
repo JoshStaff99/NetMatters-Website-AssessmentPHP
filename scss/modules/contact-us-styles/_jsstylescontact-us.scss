@@ -11,6 +11,17 @@
     display: block;
 }
 
+//Marketing Value Button
+.marketing-btn-hidden {
+    display: none;
+}
+
+.marketing-btn-active {
+    display: block;
+}
+
+
+
 // Form styling 
 .form-control.has-error {
     border-color: #d64541;
