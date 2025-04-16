@@ -193,8 +193,8 @@
                                 <label class="checkbox">
                                     <span class="media">
                                         <span class="media-left checkbox-left">
-                                            <span class="marketing-btn button">
-                                                <span class="checkmark marketing-btn-hidden">&#10004;</span>
+                                            <span class="marketing-btn button marketing-background-hidden">
+                                                <span class="checkmark marketing-btn-hidden">&#10003;</span>
                                             </span>
                                         </span>
                                         <span class="media-body">

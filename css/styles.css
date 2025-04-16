@@ -4110,6 +4110,19 @@ a {
 
 .marketing-btn-active {
   display: block;
+  position: relative;
+  color: #fff;
+  font-size: 20px;
+  left: 4px;
+  bottom: 4px;
+}
+
+.marketing-background-hidden {
+  background-color: #e6e7e9;
+}
+
+.marketing-background-active {
+  background-color: #333645;
 }
 
 .form-control.has-error {

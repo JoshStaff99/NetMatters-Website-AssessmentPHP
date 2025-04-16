@@ -18,21 +18,18 @@ $(document).ready(function() {
     });
 });
 
-//Marketing value on click Function
-// $(document).ready(function() {
-//   $('.marketing-btn').click(function(e) {
-//       var marketingButton = $('.marketing-btn-hidden, .marketing-btn-active');
-      
-//       // If it's hidden, make it active, and vice versa
-//       if (marketingButton.hasClass('marketing-btn-hidden')) {
-//           marketingButton.removeClass('marketing-btn-hidden').addClass('marketing-btn-active');
-//       } else if (marketingButton.hasClass('marketing-btn-active')) {
-//           marketingButton.removeClass('marketing-btn-active').addClass('marketing-btn-hidden');
-//       }
-      
-//       e.stopPropagation(); 
-//   });
-// });
+// Toggle marketing background visibility on button click
+$(document).ready(function() {
+  $('.marketing-btn').click(function(e) {
+    var marketingBackground = $('.marketing-background-hidden, .marketing-background-active');
+
+    // Toggle classes
+    marketingBackground.toggleClass('marketing-background-hidden marketing-background-active');
+
+    // Prevent event from bubbling up
+    e.stopPropagation();
+  });
+});
 
 $(document).ready(function() {
   $('.marketing-btn').click(function(e) {
