@@ -35,7 +35,7 @@ $(document).ready(function() {
   $('.marketing-btn').click(function(e) {
     var $button = $(this);
     var $checkmark = $button.find('.checkmark');
-    var $checkbox = $button.closest('.checkbox').find('.marketing-checkbox');
+    var $checkbox = $button.closest('label.checkbox').find('input.marketing-checkbox');
 
     $checkmark.toggleClass('marketing-btn-hidden marketing-btn-active');
 
