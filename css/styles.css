@@ -814,7 +814,7 @@ header img {
 }
 
 .banner-background-7 {
-  background-image: linear-gradient(270deg, transparent 25%, #000), url("../img/banner-img/home-MSxH.png");
+  background-image: linear-gradient(290deg, transparent 25%, #000), url("../img/banner-img/home-MSxH.png");
 }
 
 @media (max-width: 992px) {
@@ -855,7 +855,7 @@ header img {
 
 @media (max-width: 992px) {
   .banner-background-7 {
-    background-image: linear-gradient(270deg, transparent 1%, #000), url("../img/banner-img/home-MSxH.png");
+    background-image: linear-gradient(290deg, transparent 1%, #000), url("../img/banner-img/home-MSxH.png");
   }
 }
 

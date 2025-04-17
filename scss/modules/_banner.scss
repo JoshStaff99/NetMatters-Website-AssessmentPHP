@@ -65,7 +65,7 @@
 }
 
 .banner-background-7 {
-    background-image: linear-gradient(270deg, transparent 25%, #000), url('../img/banner-img/home-MSxH.png');
+    background-image: linear-gradient(290deg, transparent 25%, #000), url('../img/banner-img/home-MSxH.png');
 }
 
 //Media Queries
@@ -107,8 +107,7 @@
 
 .banner-background-7 {
     @media (max-width: 992px) {
-        background-image: linear-gradient(270deg, transparent 1%, #000), url('../img/banner-img/home-MSxH.png');
-        //background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.7) 1%, transparent 100%), url('../img/banner-img/home-MSxH.png');
+        background-image: linear-gradient(290deg, transparent 1%, #000), url('../img/banner-img/home-MSxH.png');
     }
 }
 
