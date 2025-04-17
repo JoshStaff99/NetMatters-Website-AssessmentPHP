@@ -18,6 +18,34 @@ $(document).ready(function() {
     });
 });
 
+// Toggle marketing background visibility on button click
+$(document).ready(function() {
+  $('.marketing-btn').click(function(e) {
+    var marketingBackground = $('.marketing-background-hidden, .marketing-background-active');
+
+    // Toggle classes
+    marketingBackground.toggleClass('marketing-background-hidden marketing-background-active');
+
+    // Prevent event from bubbling up
+    e.stopPropagation();
+  });
+});
+
+$(document).ready(function() {
+  $('.marketing-btn').click(function(e) {
+    var $button = $(this);
+    var $checkmark = $button.find('.checkmark');
+    var $checkbox = $button.closest('label.checkbox').find('input.marketing-checkbox');
+
+    $checkmark.toggleClass('marketing-btn-hidden marketing-btn-active');
+
+    // Toggle the checkbox
+    $checkbox.prop('checked', !$checkbox.prop('checked'));
+
+    e.stopPropagation();
+  });
+});
+
 const $form_TelNo = $('#telephone'); 
 const $form_EmailAddress = $('#email');
 

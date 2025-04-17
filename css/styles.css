@@ -814,7 +814,7 @@ header img {
 }
 
 .banner-background-7 {
-  background-image: linear-gradient(270deg, transparent 25%, #000), url("../img/banner-img/home-MSxH.png");
+  background-image: linear-gradient(290deg, transparent 25%, #000), url("../img/banner-img/home-MSxH.png");
 }
 
 @media (max-width: 992px) {
@@ -855,7 +855,7 @@ header img {
 
 @media (max-width: 992px) {
   .banner-background-7 {
-    background-image: linear-gradient(270deg, transparent 1%, #000), url("../img/banner-img/home-MSxH.png");
+    background-image: linear-gradient(290deg, transparent 1%, #000), url("../img/banner-img/home-MSxH.png");
   }
 }
 
@@ -3339,11 +3339,6 @@ textarea#message {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.form-control::-moz-placeholder {
-  color: #888;
-  opacity: 1;
-}
-
 .form-control::placeholder {
   color: #888;
   opacity: 1;
@@ -4107,6 +4102,27 @@ a {
 
 .ofh-it-support-active {
   display: block;
+}
+
+.marketing-btn-hidden {
+  display: none;
+}
+
+.marketing-btn-active {
+  display: block;
+  position: relative;
+  color: #fff;
+  font-size: 20px;
+  left: 4px;
+  bottom: 4px;
+}
+
+.marketing-background-hidden {
+  background-color: #e6e7e9;
+}
+
+.marketing-background-active {
+  background-color: #333645;
 }
 
 .form-control.has-error {
