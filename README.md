@@ -1,35 +1,34 @@
-# HTML & CSS Assessment
+# Netmatters PHP Mirror Assessment
 
-# Step 1 
+# Step 1 - Clone the Repository
 Clone the repository to your local system.
 
-# Step 2
-Make sure you have the appropriate environment set up (e.g., Python, Node.js). Then install the necessary packages.
+# Step 2 - Set Up Your Local Enviroment
+Ensure you have a local web server environment with PHP and a database system such as MySQL or MariaDB.
 
-# For Python
-pip install -r requirements.txt
+You can use tools like: XAMPP, MAMP, Laragon
 
-# For Node.js
-npm install
+# Step 3 - Composer
+Ensure Composer is installed globally on your system. Then run the following command in the project root: composer install
 
-# Step 3
-Set Up Environment Variables
+# Step 4 - Set Up Enviroment Variables
+Create a .env file in the root directory of the project to configure your enviorment settings.
 
 # Example .env file
-# Server settings
+Server settings
 PORT=5000
 HOST=localhost
 
-# Database
+Database
 DB_HOST=localhost
 DB_PORT=5432
 DB_USER=your_db_user
 DB_PASS=your_db_password
 DB_NAME=your_db_name
 
-# API keys
+API keys
 SECRET_KEY=your_secret_key_here
 API_KEY=your_api_key_here
 
-# Step 4
+# Step 5 - Finished
 Then you should be good to go!
