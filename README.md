@@ -30,5 +30,10 @@ API keys
 SECRET_KEY=your_secret_key_here
 API_KEY=your_api_key_here
 
-# Step 5 - Finished
+# Step 5 – Launch the Application
+If you're using PHP's built-in server for development, you can run: php -S localhost:5000 -t public 
+Replace public with your actual document root if different.
+Alternatively, place the project in your web server's root directory (e.g., htdocs) and access it via your browser: http://localhost/your-project-folder/
+
+# Step 6 - Finished
 Then you should be good to go!
